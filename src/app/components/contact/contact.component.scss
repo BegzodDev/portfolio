@@ -1,0 +1,29 @@
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 28px;
+}
+.contact-card {
+  flex: 1;
+  min-width: 200px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-panel);
+  padding: 18px;
+  transition: border-color .15s;
+}
+.contact-card:hover { border-color: var(--accent); }
+.contact-card .label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+.contact-card .value {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--text);
+}

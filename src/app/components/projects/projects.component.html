@@ -1,0 +1,21 @@
+<section id="projects">
+  <p class="section-tag">projects</p>
+  <h2>Tanlangan loyihalar</h2>
+
+  <div class="project-card" *ngFor="let p of projects">
+    <div class="project-head">
+      <span class="project-name">{{ p.name }}</span>
+      <div class="project-links">
+        <a *ngIf="p.demoUrl" [href]="p.demoUrl">Live demo</a>
+        <a *ngIf="p.sourceUrl" [href]="p.sourceUrl">Source</a>
+      </div>
+    </div>
+    <div class="project-body">
+      <p class="project-desc">{{ p.description }}</p>
+      <div class="diff">
+        <div class="added" *ngFor="let h of p.highlights">{{ h }}</div>
+        <div class="ctx" *ngIf="p.meta">{{ p.meta }}</div>
+      </div>
+    </div>
+  </div>
+</section>

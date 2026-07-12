@@ -1,0 +1,67 @@
+<section id="about">
+  <p class="section-tag">about</p>
+
+  <div class="hero-top">
+    <div class="hero-avatar">
+      <!-- Put your photo at src/assets/images/avatar.jpg -->
+      <img src="assets/images/avatar.jpg" alt="Bekhzod Qodirboev" />
+    </div>
+    <div class="hero-text">
+      <h1>
+        Salom, men <span class="accent">Bekhzod Qodirboev</span>.<br />Angular
+        &amp; .NET Full-Stack Developer.
+      </h1>
+      <p class="lead">
+        Yaponiyada istiqomat qiluvchi full-stack dasturchi. Angular va .NET
+        texnologiyalari bo'yicha tajribali, Yaponiya bozorida startup
+        g'oyalarini amalga oshirishga intiluvchi mutaxassis.
+      </p>
+    </div>
+  </div>
+
+  <div class="hero-cta">
+    <a class="btn btn-primary" href="#projects">Loyihalarni ko'rish</a>
+    <a class="btn" href="#contact">Bog'lanish</a>
+  </div>
+
+  <div class="hero-terminal">
+    <div class="hero-terminal-bar"><span></span><span></span><span></span></div>
+    <div class="hero-terminal-body">
+      <div class="line"><span class="prompt">$</span> whoami</div>
+      <div class="line out">
+        bekhzod_qodirboev — angular &amp; .net developer &#64; japan
+      </div>
+      <div class="line"><span class="prompt">$</span> cat skills.txt</div>
+      <div class="line out">
+        Angular, TypeScript, ASP.NET Core, C#, SQL Server, Docker
+      </div>
+      <div class="line">
+        <span class="prompt">$</span> <span class="cursor"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-grid" style="margin-top: 56px">
+    <div class="about-text">
+      <h2>Qisqacha</h2>
+      <p>
+        Men Angular va .NET texnologiyalarida ixtisoslashgan full-stack
+        dasturchi. Web ilovalar yaratishda frontend'dan backend'gacha bo'lgan
+        barcha jarayonlarni boshqaraman. Hozirda Yaponiyada til maktabida o'qib,
+        Yaponiya IT bozoriga kirib borishni rejalashtirmoqdaman.
+      </p>
+      <p>
+        Uzoq muddatli maqsadim — Yaponiyada startap qurish yoki Google, Amazon
+        kabi yirik texnologiya kompaniyalarida ishlash. O'zbek, Rus va Yapon
+        tillarini bilaman, bu esa turli jamoalar bilan samarali hamkorlik qilish
+        imkonini beradi.
+      </p>
+    </div>
+    <div class="stack-list">
+      <div class="stack-row" *ngFor="let row of stack">
+        <span class="k">{{ row.k }}</span>
+        <span class="v">{{ row.v }}</span>
+      </div>
+    </div>
+  </div>
+</section>

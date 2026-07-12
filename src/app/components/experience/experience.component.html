@@ -1,0 +1,13 @@
+<section id="contracts">
+  <p class="section-tag">experience</p>
+  <h2>Ish tajribasi va kontraktlar</h2>
+
+  <div class="gitlog">
+    <div class="commit" *ngFor="let c of commits">
+      <div class="commit-hash">{{ c.hash }}</div>
+      <div class="commit-msg">{{ c.msg }}</div>
+      <div class="commit-meta">{{ c.meta }}</div>
+      <div class="commit-body">{{ c.body }}</div>
+    </div>
+  </div>
+</section>
