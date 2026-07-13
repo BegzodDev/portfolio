@@ -1,5 +1,5 @@
-<section id="about">
-  <p class="section-tag">about</p>
+<section id="about" *transloco="let t">
+  <p class="section-tag">{{ t("about.tag") }}</p>
 
   <div class="hero-top">
     <div class="hero-avatar">
@@ -8,41 +8,36 @@
     </div>
     <div class="hero-text">
       <h1>
-        Salom, men
+        {{ t("about.greeting") }}
+        <span class="accent name-animate animate__animated animate__bounce">{{
+          t("about.name")
+        }}</span>
         <span
-          class="accent name-animate animate__animated animate__bounceInLeft"
-          >Bekhzod</span
-        >
-        <span
-          class="accent surname-animate animate__animated animate__bounceInRight"
-          >Qodirboev</span
+          class="accent surname-animate animate__animated animate__bounce"
+          >{{ t("about.surname") }}</span
         >.<br />
-        Angular &amp; .NET Full-Stack Developer.
+        {{ t("about.role") }}
       </h1>
-      <p class="lead">
-        Yaponiyada istiqomat qiluvchi full-stack dasturchi. Angular va .NET
-        texnologiyalari bo'yicha tajribali, Yaponiya bozorida startup
-        g'oyalarini amalga oshirishga intiluvchi mutaxassis.
-      </p>
+      <p class="lead">{{ t("about.lead") }}</p>
     </div>
   </div>
 
   <div class="hero-cta">
-    <a class="btn btn-primary" href="#projects">Loyihalarni ko'rish</a>
-    <a class="btn" href="#contact">Bog'lanish</a>
+    <a class="btn btn-primary" href="#projects">{{ t("about.ctaProjects") }}</a>
+    <a class="btn" href="#contact">{{ t("about.ctaContact") }}</a>
   </div>
 
   <div class="hero-terminal">
     <div class="hero-terminal-bar"><span></span><span></span><span></span></div>
     <div class="hero-terminal-body">
-      <div class="line"><span class="prompt">$</span> whoami</div>
-      <div class="line out">
-        bekhzod_qodirboev — angular &amp; .net developer &#64; japan
+      <div class="line">
+        <span class="prompt">$</span> {{ t("about.terminal.whoami") }}
       </div>
-      <div class="line"><span class="prompt">$</span> cat skills.txt</div>
-      <div class="line out">
-        Angular, TypeScript, ASP.NET Core, C#, SQL Server, Docker
+      <div class="line out">{{ t("about.terminal.whoamiOut") }}</div>
+      <div class="line">
+        <span class="prompt">$</span> {{ t("about.terminal.skills") }}
       </div>
+      <div class="line out">{{ t("about.terminal.skillsOut") }}</div>
       <div class="line">
         <span class="prompt">$</span> <span class="cursor"></span>
       </div>
@@ -51,19 +46,9 @@
 
   <div class="about-grid" style="margin-top: 56px">
     <div class="about-text">
-      <h2>Qisqacha</h2>
-      <p>
-        Men Angular va .NET texnologiyalarida ixtisoslashgan full-stack
-        dasturchi. Web ilovalar yaratishda frontend'dan backend'gacha bo'lgan
-        barcha jarayonlarni boshqaraman. Hozirda Yaponiyada til maktabida o'qib,
-        Yaponiya IT bozoriga kirib borishni rejalashtirmoqdaman.
-      </p>
-      <p>
-        Uzoq muddatli maqsadim — Yaponiyada startap qurish yoki Google, Amazon
-        kabi yirik texnologiya kompaniyalarida ishlash. O'zbek, Rus va Yapon
-        tillarini bilaman, bu esa turli jamoalar bilan samarali hamkorlik qilish
-        imkonini beradi.
-      </p>
+      <h2>{{ t("about.summaryTitle") }}</h2>
+      <p>{{ t("about.summaryP1") }}</p>
+      <p>{{ t("about.summaryP2") }}</p>
     </div>
     <div class="stack-list">
       <div class="stack-row" *ngFor="let row of stack">

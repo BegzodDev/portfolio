@@ -1,0 +1,21 @@
+{
+  "about": {
+    "tag": "about",
+    "greeting": "Salom, men",
+    "name": "Bekhzod",
+    "surname": "Qodirboev",
+    "role": "Angular & .NET Full-Stack Developer.",
+    "lead": "Yaponiyada istiqomat qiluvchi full-stack dasturchi. Angular va .NET texnologiyalari bo'yicha tajribali, Yaponiya bozorida startup g'oyalarini amalga oshirishga intiluvchi mutaxassis.",
+    "ctaProjects": "Loyihalarni ko'rish",
+    "ctaContact": "Bog'lanish",
+    "terminal": {
+      "whoami": "whoami",
+      "whoamiOut": "bekhzod_qodirboev — angular & .net developer @ japan",
+      "skills": "cat skills.txt",
+      "skillsOut": "Angular, TypeScript, ASP.NET Core, C#, SQL Server, Docker"
+    },
+    "summaryTitle": "Qisqacha",
+    "summaryP1": "Men Angular va .NET texnologiyalarida ixtisoslashgan full-stack dasturchi. Web ilovalar yaratishda frontend'dan backend'gacha bo'lgan barcha jarayonlarni boshqaraman. Hozirda Yaponiyada til maktabida o'qib, Yaponiya IT bozoriga kirib borishni rejalashtirmoqdaman.",
+    "summaryP2": "Uzoq muddatli maqsadim — Yaponiyada startap qurish yoki Google, Amazon kabi yirik texnologiya kompaniyalarida ishlash. O'zbek, Rus va Yapon tillarini bilaman, bu esa turli jamoalar bilan samarali hamkorlik qilish imkonini beradi."
+  }
+}

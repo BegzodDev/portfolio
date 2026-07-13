@@ -1,0 +1,21 @@
+{
+  "about": {
+    "tag": "about",
+    "greeting": "Hi, I'm",
+    "name": "Bekhzod",
+    "surname": "Qodirboev",
+    "role": "Angular & .NET Full-Stack Developer.",
+    "lead": "A full-stack developer based in Japan, experienced in Angular and .NET technologies, aiming to bring startup ideas to life in the Japanese market.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Contact",
+    "terminal": {
+      "whoami": "whoami",
+      "whoamiOut": "bekhzod_qodirboev — angular & .net developer @ japan",
+      "skills": "cat skills.txt",
+      "skillsOut": "Angular, TypeScript, ASP.NET Core, C#, SQL Server, Docker"
+    },
+    "summaryTitle": "About Me",
+    "summaryP1": "I'm a full-stack developer specializing in Angular and .NET technologies, handling everything from frontend to backend when building web applications. Currently studying at a language school in Japan, planning to break into the Japanese IT market.",
+    "summaryP2": "My long-term goal is to build a startup in Japan or work at major tech companies like Google or Amazon. I speak Uzbek, Russian, and Japanese, which helps me collaborate effectively with diverse teams."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "about": {
+    "tag": "about",
+    "greeting": "こんにちは、私は",
+    "name": "ベクゾド",
+    "surname": "コディルボエフ",
+    "role": "Angular・.NET フルスタック開発者。",
+    "lead": "日本在住のフルスタック開発者です。AngularとNET技術に精通しており、日本市場でスタートアップのアイデアを実現することを目指しています。",
+    "ctaProjects": "プロジェクトを見る",
+    "ctaContact": "お問い合わせ",
+    "terminal": {
+      "whoami": "whoami",
+      "whoamiOut": "bekhzod_qodirboev — angular & .net developer @ japan",
+      "skills": "cat skills.txt",
+      "skillsOut": "Angular, TypeScript, ASP.NET Core, C#, SQL Server, Docker"
+    },
+    "summaryTitle": "自己紹介",
+    "summaryP1": "私はAngularと.NET技術を専門とするフルスタック開発者です。フロントエンドからバックエンドまで、Webアプリケーション開発の全工程を担当しています。現在、日本語学校で学びながら、日本のIT市場への参入を計画しています。",
+    "summaryP2": "長期的な目標は、日本でスタートアップを立ち上げるか、GoogleやAmazonのような大手テクノロジー企業で働くことです。ウズベク語、ロシア語、日本語を話せるため、多様なチームと効果的に協力できます。"
+  }
+}
