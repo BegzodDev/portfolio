@@ -1,54 +1,50 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-interface Project {
-  name: string;
-  demoUrl?: string;
-  sourceUrl?: string;
-  description: string;
-  highlights: string[]; // rendered as "+ added" lines
-  meta?: string; // rendered as a dim context line (e.g. deploy info)
-}
+import { Project } from '../../../interfaces/project';
+import { TranslocoModule } from '@jsverse/transloco';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslocoModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss',
 })
 export class ProjectsComponent {
   projects: Project[] = [
     {
-      name: 'project-name-one',
+      name: 'projects.items.projectOne.name',
       demoUrl: '#',
       sourceUrl: '#',
-      description:
-        '[Loyiha haqida 1-2 gap: nima qiladi, qaysi muammoni hal qiladi va kim uchun yaratilgan.]',
+      description: 'projects.items.projectOne.description',
       highlights: [
-        'React + TailwindCSS frontend',
-        'Node.js / Express REST API',
-        "PostgreSQL ma'lumotlar bazasi",
+        'projects.items.projectOne.highlight1',
+        'projects.items.projectOne.highlight2',
+        'projects.items.projectOne.highlight3',
       ],
-      meta: 'deployed: Vercel + Railway',
+      meta: 'projects.items.projectOne.meta',
     },
     {
-      name: 'sme-management-platform',
+      name: 'projects.items.smePlatform.name',
       demoUrl: '#',
       sourceUrl: '#',
-      description:
-        'Kichik biznes uchun boshqaruv paneli — inventar, hisob-faktura, mijozlar yozuvlari va hisobotlar bitta interfeysda.',
-      highlights: ['Angular + .NET 8 full-stack', 'PostgreSQL + Docker'],
-      meta: 'CI/CD: GitHub Actions',
+      description: 'projects.items.smePlatform.description',
+      highlights: [
+        'projects.items.smePlatform.highlight1',
+        'projects.items.smePlatform.highlight2',
+      ],
+      meta: 'projects.items.smePlatform.meta',
     },
     {
-      name: 'restaurant-pos-system',
+      name: 'projects.items.restaurantPos.name',
       demoUrl: '#',
       sourceUrl: '#',
-      description:
-        'Yaponiya restoranlari uchun POS tizimi — buyurtmalar, stol kuzatuvi va kunlik daromad hisoboti touchscreen interfeysida.',
-      highlights: ['Angular + SignalR real-time', 'ASP.NET Core backend'],
-      meta: 'platform: Windows Tablet',
+      description: 'projects.items.restaurantPos.description',
+      highlights: [
+        'projects.items.restaurantPos.highlight1',
+        'projects.items.restaurantPos.highlight2',
+      ],
+      meta: 'projects.items.restaurantPos.meta',
     },
   ];
 }
