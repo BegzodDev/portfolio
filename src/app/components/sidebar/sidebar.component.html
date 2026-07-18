@@ -1,7 +1,7 @@
 <aside class="sidebar">
   <div class="sidebar-brand">
     <div class="name">bekhzod<span>.dev</span></div>
-    <div class="role">Software Developer</div>
+    <div class="role">{{ "sidebar.role" | transloco }}</div>
   </div>
   <div class="lang-switcher">
     <button (click)="changeLang('uz')">UZ</button>
@@ -12,7 +12,7 @@
   <ul class="tree">
     <li class="tree-item" *ngFor="let item of navItems">
       <a [href]="item.href" [class.active]="item.active">
-        <span>{{ item.label }}</span>
+        <span>{{ item.label | transloco }}</span>
         <span class="ext">{{ item.ext }}</span>
       </a>
     </li>

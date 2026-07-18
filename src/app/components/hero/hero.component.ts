@@ -10,12 +10,16 @@ import { TranslocoModule } from '@jsverse/transloco';
   styleUrl: './hero.component.scss',
 })
 export class HeroComponent {
-  stack = [
-    { k: 'Frontend', v: 'Angular, TypeScript' },
-    { k: 'Backend', v: 'ASP.NET Core, C#' },
-    { k: 'Database', v: 'SQL Server, PostgreSQL' },
-    { k: 'Tools', v: 'Git, Docker, Azure' },
-    { k: 'Tillar', v: "O'zbek · Русский · 日本語" },
-    { k: 'Joylashuv', v: 'Aichi, Japan 🇯🇵' },
+  stack: StackItem[] = [
+    { key: 'stack.frontend.key', value: 'stack.frontend.value' },
+    { key: 'stack.backend.key', value: 'stack.backend.value' },
+    { key: 'stack.database.key', value: 'stack.database.value' },
+    { key: 'stack.tools.key', value: 'stack.tools.value' },
+    { key: 'stack.languages.key', value: 'stack.languages.value' },
+    { key: 'stack.location.key', value: 'stack.location.value' },
   ];
+}
+interface StackItem {
+  key: string;
+  value: string;
 }

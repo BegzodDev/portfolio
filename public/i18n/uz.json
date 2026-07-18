@@ -4,18 +4,94 @@
     "greeting": "Salom, men",
     "name": "Bekhzod",
     "surname": "Qodirboev",
-    "role": "Angular & .NET Full-Stack Developer.",
-    "lead": "Yaponiyada istiqomat qiluvchi full-stack dasturchi. Angular va .NET texnologiyalari bo'yicha tajribali, Yaponiya bozorida startup g'oyalarini amalga oshirishga intiluvchi mutaxassis.",
+    "role": "Angular & .NET Full-Stack Dasturchi.",
+    "lead": "Yaponiyada joylashgan full-stack dasturchi, Angular va .NET texnologiyalarida tajribaga ega, startap g'oyalarini Yaponiya bozorida hayotga tatbiq etishga intiladi.",
     "ctaProjects": "Loyihalarni ko'rish",
     "ctaContact": "Bog'lanish",
     "terminal": {
       "whoami": "whoami",
-      "whoamiOut": "bekhzod_qodirboev — angular & .net developer @ japan",
+      "whoamiOut": "bekhzod_qodirboev — angular & .net dasturchi @ yaponiya",
       "skills": "cat skills.txt",
       "skillsOut": "Angular, TypeScript, ASP.NET Core, C#, SQL Server, Docker"
     },
-    "summaryTitle": "Qisqacha",
-    "summaryP1": "Men Angular va .NET texnologiyalarida ixtisoslashgan full-stack dasturchi. Web ilovalar yaratishda frontend'dan backend'gacha bo'lgan barcha jarayonlarni boshqaraman. Hozirda Yaponiyada til maktabida o'qib, Yaponiya IT bozoriga kirib borishni rejalashtirmoqdaman.",
-    "summaryP2": "Uzoq muddatli maqsadim — Yaponiyada startap qurish yoki Google, Amazon kabi yirik texnologiya kompaniyalarida ishlash. O'zbek, Rus va Yapon tillarini bilaman, bu esa turli jamoalar bilan samarali hamkorlik qilish imkonini beradi."
+    "summaryTitle": "Men haqimda",
+    "summaryP1": "Men Angular va .NET texnologiyalariga ixtisoslashgan full-stack dasturchiman, veb-ilovalar yaratishda frontend'dan backend'gacha bo'lgan barcha jarayonlarni boshqaraman. Hozirda Yaponiyada til maktabida o'qiyman va Yaponiya IT bozoriga kirishni rejalashtiryapman.",
+    "summaryP2": "Uzoq muddatli maqsadim — Yaponiyada startap qurish yoki Google, Amazon kabi yirik texnologik kompaniyalarda ishlash. Men o'zbek, rus va yapon tillarida gaplashaman, bu turli jamoalar bilan samarali hamkorlik qilishimga yordam beradi."
+  },
+  "stack": {
+    "frontend": { "key": "Frontend", "value": "Angular, TypeScript" },
+    "backend": { "key": "Backend", "value": "ASP.NET Core, C#" },
+    "database": {
+      "key": "Ma'lumotlar bazasi",
+      "value": "SQL Server, PostgreSQL"
+    },
+    "tools": { "key": "Vositalar", "value": "Git, Docker, Azure" },
+    "languages": { "key": "Tillar", "value": "O'zbek · Rus · Yapon" },
+    "location": { "key": "Joylashuv", "value": "Aichi, Yaponiya 🇯🇵" }
+  },
+  "sidebar": {
+    "role": "Dasturchi",
+    "nav": {
+      "about": "men haqimda",
+      "projects": "loyihalar",
+      "experience": "tajriba",
+      "contact": "bog'lanish"
+    }
+  },
+  "projects": {
+    "tag": "loyihalar",
+    "title": "Tanlangan loyihalar",
+    "liveDemo": "Jonli namoyish",
+    "source": "Manba kodi",
+    "items": {
+      "projectOne": {
+        "name": "Loyiha nomi bir",
+        "description": "[Loyiha haqida 1-2 gap: nima qiladi, qaysi muammoni hal qiladi va kim uchun yaratilgan.]",
+        "highlight1": "React + TailwindCSS frontend",
+        "highlight2": "Node.js / Express REST API",
+        "highlight3": "PostgreSQL ma'lumotlar bazasi",
+        "meta": "joylashtirildi: Vercel + Railway"
+      },
+      "smePlatform": {
+        "name": "Kichik biznes boshqaruv platformasi",
+        "description": "Kichik biznes uchun boshqaruv paneli — inventar, hisob-faktura, mijozlar yozuvlari va hisobotlar bitta interfeysda.",
+        "highlight1": "Angular + .NET 8 full-stack",
+        "highlight2": "PostgreSQL + Docker",
+        "meta": "CI/CD: GitHub Actions"
+      },
+      "restaurantPos": {
+        "name": "Restoran uchun POS tizimi",
+        "description": "Yaponiya restoranlari uchun POS tizimi — buyurtmalar, stol kuzatuvi va kunlik daromad hisoboti touchscreen interfeysida.",
+        "highlight1": "Angular + SignalR real-time",
+        "highlight2": "ASP.NET Core backend",
+        "meta": "platforma: Windows Tablet"
+      }
+    }
+  },
+  "experience": {
+    "tag": "experience",
+    "title": "Ish tajribasi va kontraktlar",
+    "items": {
+      "commitOne": {
+        "msg": "[Kontrakt/lavozim nomi — masalan: Freelance Angular dasturchisi]",
+        "meta": "[sana oralig'i va kompaniya nomi]",
+        "body": "[Nima qildingiz, qanday natijaga erishdingiz — 1-2 gap]"
+      },
+      "commitTwo": {
+        "msg": "[Kontrakt/lavozim nomi]",
+        "meta": "[sana oralig'i va kompaniya nomi]",
+        "body": "[Nima qildingiz, qanday natijaga erishdingiz — 1-2 gap]"
+      }
+    }
+  },
+  "contact": {
+    "tag": "contact",
+    "title": "Bog'lanish",
+    "lead": "Hamkorlik, kontrakt ishlar yoki savollar bo'yicha bog'lanishingiz mumkin.",
+    "items": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
   }
 }

@@ -1,21 +1,119 @@
 {
   "about": {
-    "tag": "about",
-    "greeting": "こんにちは、私は",
+    "tag": "私について",
+    "greeting": "こんにちは、",
     "name": "ベクゾド",
     "surname": "コディルボエフ",
-    "role": "Angular・.NET フルスタック開発者。",
-    "lead": "日本在住のフルスタック開発者です。AngularとNET技術に精通しており、日本市場でスタートアップのアイデアを実現することを目指しています。",
+    "role": "Angular・.NET フルスタックエンジニア",
+    "lead": "日本を拠点に活動するフルスタックエンジニアです。Angular と .NET を活用し、高品質な Web アプリケーションやスタートアップ向けサービスの開発に取り組んでいます。",
     "ctaProjects": "プロジェクトを見る",
     "ctaContact": "お問い合わせ",
     "terminal": {
       "whoami": "whoami",
-      "whoamiOut": "bekhzod_qodirboev — angular & .net developer @ japan",
+      "whoamiOut": "bekhzod_qodirboev — Angular & .NET Engineer @ Japan",
       "skills": "cat skills.txt",
-      "skillsOut": "Angular, TypeScript, ASP.NET Core, C#, SQL Server, Docker"
+      "skillsOut": "Angular, TypeScript, ASP.NET Core, C#, PostgreSQL, SQL Server, Docker"
     },
     "summaryTitle": "自己紹介",
-    "summaryP1": "私はAngularと.NET技術を専門とするフルスタック開発者です。フロントエンドからバックエンドまで、Webアプリケーション開発の全工程を担当しています。現在、日本語学校で学びながら、日本のIT市場への参入を計画しています。",
-    "summaryP2": "長期的な目標は、日本でスタートアップを立ち上げるか、GoogleやAmazonのような大手テクノロジー企業で働くことです。ウズベク語、ロシア語、日本語を話せるため、多様なチームと効果的に協力できます。"
+    "summaryP1": "Angular と .NET を専門とするフルスタックエンジニアとして、フロントエンドからバックエンドまで一貫した Web アプリケーション開発を行っています。REST API の設計・開発、データベース設計、クラウド環境へのデプロイまで幅広く対応できます。",
+    "summaryP2": "現在は日本語学校で学びながら、日本の IT 業界でキャリアを築くことを目指しています。将来的には、日本でスタートアップを立ち上げる、または Google や Amazon のようなグローバル企業で活躍することが目標です。ウズベク語、ロシア語、日本語を話すことができ、多国籍なチームでも円滑にコミュニケーションを取りながら開発を進めることができます。"
+  },
+
+  "stack": {
+    "frontend": {
+      "key": "フロントエンド",
+      "value": "Angular, TypeScript"
+    },
+    "backend": {
+      "key": "バックエンド",
+      "value": "ASP.NET Core, C#"
+    },
+    "database": {
+      "key": "データベース",
+      "value": "PostgreSQL, SQL Server"
+    },
+    "tools": {
+      "key": "ツール",
+      "value": "Git, Docker, Azure"
+    },
+    "languages": {
+      "key": "対応言語",
+      "value": "ウズベク語・ロシア語・日本語"
+    },
+    "location": {
+      "key": "所在地",
+      "value": "愛知県・日本 🇯🇵"
+    }
+  },
+
+  "sidebar": {
+    "role": "ソフトウェアエンジニア",
+    "nav": {
+      "about": "自己紹介",
+      "projects": "プロジェクト",
+      "experience": "職務経歴",
+      "contact": "お問い合わせ"
+    }
+  },
+
+  "projects": {
+    "tag": "Projects",
+    "title": "主なプロジェクト",
+    "liveDemo": "デモを見る",
+    "source": "ソースコード",
+    "items": {
+      "projectOne": {
+        "name": "ポートフォリオサイト",
+        "description": "Angular を使用して開発したレスポンシブ対応のポートフォリオサイトです。多言語対応やダークモード、モダンな UI を備えています。",
+        "highlight1": "Angular + TypeScript",
+        "highlight2": "レスポンシブデザイン",
+        "highlight3": "多言語対応 (i18n)",
+        "meta": "Vercel にデプロイ"
+      },
+      "smePlatform": {
+        "name": "企業向け業務管理システム",
+        "description": "在庫管理、請求書管理、顧客管理、売上レポートなどを一元管理できる Web システムです。",
+        "highlight1": "Angular + .NET 8",
+        "highlight2": "PostgreSQL + Docker",
+        "highlight3": "REST API",
+        "meta": "CI/CD: GitHub Actions"
+      },
+      "restaurantPos": {
+        "name": "レストラン向けPOSシステム",
+        "description": "注文管理、テーブル管理、売上分析をリアルタイムで行える POS システムを開発しました。",
+        "highlight1": "Angular + SignalR",
+        "highlight2": "ASP.NET Core",
+        "highlight3": "SQL Server",
+        "meta": "Windows タブレット対応"
+      }
+    }
+  },
+
+  "experience": {
+    "tag": "Experience",
+    "title": "職務経歴",
+    "items": {
+      "commitOne": {
+        "msg": "フルスタックエンジニア",
+        "meta": "BePro DevHub（2022年〜2024年）",
+        "body": "Angular と .NET を使用した業務システムの設計・開発・保守を担当しました。REST API の開発やデータベース設計、フロントエンド実装まで幅広く携わりました。"
+      },
+      "commitTwo": {
+        "msg": "個人開発",
+        "meta": "2024年〜現在",
+        "body": "ポートフォリオサイトや SaaS アプリケーションの開発を継続しています。Angular、ASP.NET Core、Docker、PostgreSQL を活用し、実践的なプロジェクトを構築しています。"
+      }
+    }
+  },
+
+  "contact": {
+    "tag": "Contact",
+    "title": "お問い合わせ",
+    "lead": "プロジェクトのご相談、業務委託、採用に関するお問い合わせなど、お気軽にご連絡ください。",
+    "items": {
+      "email": "メール",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
   }
 }

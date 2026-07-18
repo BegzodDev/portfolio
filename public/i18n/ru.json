@@ -1,1 +1,94 @@
-{}
+{
+  "about": {
+    "tag": "about",
+    "greeting": "Привет, я",
+    "name": "Бекзод",
+    "surname": "Кодирбоев",
+    "role": "Angular & .NET Full-Stack разработчик.",
+    "lead": "Full-stack разработчик, базирующийся в Японии, с опытом работы в Angular и .NET, стремящийся воплощать стартап-идеи на японском рынке.",
+    "ctaProjects": "Смотреть проекты",
+    "ctaContact": "Связаться",
+    "terminal": {
+      "whoami": "whoami",
+      "whoamiOut": "bekhzod_qodirboev — angular & .net разработчик @ япония",
+      "skills": "cat skills.txt",
+      "skillsOut": "Angular, TypeScript, ASP.NET Core, C#, SQL Server, Docker"
+    },
+    "summaryTitle": "Обо мне",
+    "summaryP1": "Я full-stack разработчик, специализирующийся на Angular и .NET, занимаюсь всем процессом создания веб-приложений от фронтенда до бэкенда. Сейчас учусь в языковой школе в Японии, планирую выйти на японский IT-рынок.",
+    "summaryP2": "Моя долгосрочная цель — построить стартап в Японии или работать в крупных технологических компаниях, таких как Google или Amazon. Я говорю на узбекском, русском и японском языках, что помогает эффективно сотрудничать с разными командами."
+  },
+  "stack": {
+    "frontend": { "key": "Frontend", "value": "Angular, TypeScript" },
+    "backend": { "key": "Backend", "value": "ASP.NET Core, C#" },
+    "database": { "key": "База данных", "value": "SQL Server, PostgreSQL" },
+    "tools": { "key": "Инструменты", "value": "Git, Docker, Azure" },
+    "languages": { "key": "Языки", "value": "Узбекский · Русский · Японский" },
+    "location": { "key": "Местоположение", "value": "Айти, Япония 🇯🇵" }
+  },
+  "sidebar": {
+    "role": "Разработчик",
+    "nav": {
+      "about": "обо мне",
+      "projects": "проекты",
+      "experience": "опыт",
+      "contact": "контакты"
+    }
+  },
+  "projects": {
+    "tag": "проекты",
+    "title": "Избранные проекты",
+    "liveDemo": "Живая демонстрация",
+    "source": "Исходный код",
+    "items": {
+      "projectOne": {
+        "name": "Название проекта один",
+        "description": "[Краткое описание проекта в 1-2 предложениях: что он делает, какую проблему решает и для кого создан.]",
+        "highlight1": "React + TailwindCSS фронтенд",
+        "highlight2": "Node.js / Express REST API",
+        "highlight3": "База данных PostgreSQL",
+        "meta": "развёрнуто: Vercel + Railway"
+      },
+      "smePlatform": {
+        "name": "Платформа управления для МСБ",
+        "description": "Панель управления для малого бизнеса — инвентаризация, счета-фактуры, учёт клиентов и отчёты в едином интерфейсе.",
+        "highlight1": "Angular + .NET 8 full-stack",
+        "highlight2": "PostgreSQL + Docker",
+        "meta": "CI/CD: GitHub Actions"
+      },
+      "restaurantPos": {
+        "name": "POS-система для ресторана",
+        "description": "POS-система для японских ресторанов — управление заказами, отслеживание столов и отчёты о дневной выручке на сенсорном интерфейсе.",
+        "highlight1": "Angular + SignalR в реальном времени",
+        "highlight2": "Бэкенд на ASP.NET Core",
+        "meta": "платформа: Windows Tablet"
+      }
+    }
+  },
+  "experience": {
+    "tag": "опыт",
+    "title": "Опыт работы и контракты",
+    "items": {
+      "commitOne": {
+        "msg": "[Название контракта/должности — например: Freelance Angular разработчик]",
+        "meta": "[период и название компании]",
+        "body": "[Что вы делали, каких результатов достигли — 1-2 предложения]"
+      },
+      "commitTwo": {
+        "msg": "[Название контракта/должности]",
+        "meta": "[период и название компании]",
+        "body": "[Что вы делали, каких результатов достигли — 1-2 предложения]"
+      }
+    }
+  },
+  "contact": {
+    "tag": "contact",
+    "title": "Связаться",
+    "lead": "Вы можете связаться со мной по вопросам сотрудничества, контрактной работы или любым другим вопросам.",
+    "items": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  }
+}

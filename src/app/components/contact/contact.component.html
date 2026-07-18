@@ -1,13 +1,15 @@
 <section id="contact">
-  <p class="section-tag">contact</p>
-  <h2>Bog'lanish</h2>
-  <p class="lead">Hamkorlik, kontrakt ishlar yoki savollar bo'yicha bog'lanishingiz mumkin.</p>
+  <p class="section-tag">{{ "contact.tag" | transloco }}</p>
+  <h2>{{ "contact.title" | transloco }}</h2>
+  <p class="lead">{{ "contact.lead" | transloco }}</p>
 
   <div class="contact-row">
     <div class="contact-card" *ngFor="let item of items">
-      <div class="label">{{ item.label }}</div>
+      <div class="label">{{ item.label | transloco }}</div>
       <div class="value">
-        <a [href]="item.href" target="_blank" rel="noopener">{{ item.value }}</a>
+        <a [href]="item.href" target="_blank" rel="noopener">{{
+          item.value
+        }}</a>
       </div>
     </div>
   </div>

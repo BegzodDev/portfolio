@@ -1,43 +1,44 @@
-<section id="about" *transloco="let t">
-  <p class="section-tag">{{ t("about.tag") }}</p>
+<section id="about">
+  <p class="section-tag">{{ "about.tag" | transloco }}</p>
 
   <div class="hero-top">
     <div class="hero-avatar">
-      <!-- Put your photo at src/assets/images/avatar.jpg -->
       <img src="assets/images/avatar2.png" alt="Bekhzod Qodirboev" />
     </div>
     <div class="hero-text">
       <h1>
-        {{ t("about.greeting") }}
+        {{ "about.greeting" | transloco }}
         <span class="accent name-animate animate__animated animate__bounce">{{
-          t("about.name")
+          "about.name" | transloco
         }}</span>
         <span
           class="accent surname-animate animate__animated animate__bounce"
-          >{{ t("about.surname") }}</span
+          >{{ "about.surname" | transloco }}</span
         >.<br />
-        {{ t("about.role") }}
+        {{ "about.role" | transloco }}
       </h1>
-      <p class="lead">{{ t("about.lead") }}</p>
+      <p class="lead">{{ "about.lead" | transloco }}</p>
     </div>
   </div>
 
   <div class="hero-cta">
-    <a class="btn btn-primary" href="#projects">{{ t("about.ctaProjects") }}</a>
-    <a class="btn" href="#contact">{{ t("about.ctaContact") }}</a>
+    <a class="btn btn-primary" href="#projects">{{
+      "about.ctaProjects" | transloco
+    }}</a>
+    <a class="btn" href="#contact">{{ "about.ctaContact" | transloco }}</a>
   </div>
 
   <div class="hero-terminal">
     <div class="hero-terminal-bar"><span></span><span></span><span></span></div>
     <div class="hero-terminal-body">
       <div class="line">
-        <span class="prompt">$</span> {{ t("about.terminal.whoami") }}
+        <span class="prompt">$</span> {{ "about.terminal.whoami" | transloco }}
       </div>
-      <div class="line out">{{ t("about.terminal.whoamiOut") }}</div>
+      <div class="line out">{{ "about.terminal.whoamiOut" | transloco }}</div>
       <div class="line">
-        <span class="prompt">$</span> {{ t("about.terminal.skills") }}
+        <span class="prompt">$</span> {{ "about.terminal.skills" | transloco }}
       </div>
-      <div class="line out">{{ t("about.terminal.skillsOut") }}</div>
+      <div class="line out">{{ "about.terminal.skillsOut" | transloco }}</div>
       <div class="line">
         <span class="prompt">$</span> <span class="cursor"></span>
       </div>
@@ -46,14 +47,14 @@
 
   <div class="about-grid" style="margin-top: 56px">
     <div class="about-text">
-      <h2>{{ t("about.summaryTitle") }}</h2>
-      <p>{{ t("about.summaryP1") }}</p>
-      <p>{{ t("about.summaryP2") }}</p>
+      <h2>{{ "about.summaryTitle" | transloco }}</h2>
+      <p>{{ "about.summaryP1" | transloco }}</p>
+      <p>{{ "about.summaryP2" | transloco }}</p>
     </div>
     <div class="stack-list">
       <div class="stack-row" *ngFor="let row of stack">
-        <span class="k">{{ row.k }}</span>
-        <span class="v">{{ row.v }}</span>
+        <span class="key">{{ row.key | transloco }}</span>
+        <span class="value">{{ row.value | transloco }}</span>
       </div>
     </div>
   </div>

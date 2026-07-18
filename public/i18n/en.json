@@ -17,5 +17,78 @@
     "summaryTitle": "About Me",
     "summaryP1": "I'm a full-stack developer specializing in Angular and .NET technologies, handling everything from frontend to backend when building web applications. Currently studying at a language school in Japan, planning to break into the Japanese IT market.",
     "summaryP2": "My long-term goal is to build a startup in Japan or work at major tech companies like Google or Amazon. I speak Uzbek, Russian, and Japanese, which helps me collaborate effectively with diverse teams."
+  },
+  "stack": {
+    "frontend": { "key": "Frontend", "value": "Angular, TypeScript" },
+    "backend": { "key": "Backend", "value": "ASP.NET Core, C#" },
+    "database": { "key": "Database", "value": "SQL Server, PostgreSQL" },
+    "tools": { "key": "Tools", "value": "Git, Docker, Azure" },
+    "languages": { "key": "Languages", "value": "Uzbek · Russian · Japanese" },
+    "location": { "key": "Location", "value": "Aichi, Japan 🇯🇵" }
+  },
+  "sidebar": {
+    "role": "Software Developer",
+    "nav": {
+      "about": "about",
+      "projects": "projects",
+      "experience": "experience",
+      "contact": "contact"
+    }
+  },
+  "projects": {
+    "tag": "projects",
+    "title": "Selected projects",
+    "liveDemo": "Live demo",
+    "source": "Source",
+    "items": {
+      "projectOne": {
+        "name": "Project Name One",
+        "description": "[Project overview in 1-2 sentences: what it does, what problem it solves, and who it's for.]",
+        "highlight1": "React + TailwindCSS frontend",
+        "highlight2": "Node.js / Express REST API",
+        "highlight3": "PostgreSQL database",
+        "meta": "deployed: Vercel + Railway"
+      },
+      "smePlatform": {
+        "name": "SME Management Platform",
+        "description": "A management dashboard for small businesses — inventory, invoicing, customer records, and reports in one interface.",
+        "highlight1": "Angular + .NET 8 full-stack",
+        "highlight2": "PostgreSQL + Docker",
+        "meta": "CI/CD: GitHub Actions"
+      },
+      "restaurantPos": {
+        "name": "Restaurant POS System",
+        "description": "A POS system for Japanese restaurants — order management, table tracking, and daily revenue reports on a touchscreen interface.",
+        "highlight1": "Angular + SignalR real-time",
+        "highlight2": "ASP.NET Core backend",
+        "meta": "platform: Windows Tablet"
+      }
+    }
+  },
+  "experience": {
+    "tag": "experience",
+    "title": "Work experience & contracts",
+    "items": {
+      "commitOne": {
+        "msg": "[Contract/role title — e.g. Freelance Angular Developer]",
+        "meta": "[date range and company name]",
+        "body": "[What you did, what results you achieved — 1-2 sentences]"
+      },
+      "commitTwo": {
+        "msg": "[Contract/role title]",
+        "meta": "[date range and company name]",
+        "body": "[What you did, what results you achieved — 1-2 sentences]"
+      }
+    }
+  },
+  "contact": {
+    "tag": "contact",
+    "title": "Contact",
+    "lead": "Feel free to reach out for collaboration, contract work, or any questions.",
+    "items": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
   }
 }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslocoModule } from '@jsverse/transloco';
 
 interface Commit {
   hash: string; // date range, shown like a commit hash
@@ -11,29 +12,23 @@ interface Commit {
 @Component({
   selector: 'app-experience',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslocoModule],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.scss',
 })
 export class ExperienceComponent {
   commits: Commit[] = [
     {
-      hash: '2024 — hozirgacha',
-      msg: 'Full-Stack Developer',
-      meta: '@ Freelance · Yaponiya',
-      body: 'Angular va .NET yordamida mijozlar uchun web ilovalar yaratish. Yaponiya B2B bozorida SME vositalari va xizmat platformalarini rivojlantirish.',
+      hash: '#a1f9c2e',
+      msg: 'experience.items.commitOne.msg',
+      meta: 'experience.items.commitOne.meta',
+      body: 'experience.items.commitOne.body',
     },
     {
-      hash: '2022 — 2024',
-      msg: 'Software Developer',
-      meta: "@ Dasturiy ta'minot kompaniyasi",
-      body: "Angular frontend va ASP.NET Core backend yordamida korporativ veb ilovalar yaratish va qo'llab-quvvatlash. Jamoaviy loyihalarda faol ishtirok.",
-    },
-    {
-      hash: '2020 — 2022',
-      msg: 'Junior Developer',
-      meta: "@ Boshlang'ich karyera",
-      body: "C#, SQL va Angular bo'yicha mustahkam asos qo'yish. REST API va web interfeys yaratish bo'yicha amaliy tajriba orttirish.",
+      hash: '#b7d3e91',
+      msg: 'experience.items.commitTwo.msg',
+      meta: 'experience.items.commitTwo.meta',
+      body: 'experience.items.commitTwo.body',
     },
   ];
 }

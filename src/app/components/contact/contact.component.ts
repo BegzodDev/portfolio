@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslocoModule } from '@jsverse/transloco';
 
 interface ContactItem {
   label: string;
@@ -10,22 +11,26 @@ interface ContactItem {
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslocoModule],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })
 export class ContactComponent {
   items: ContactItem[] = [
     {
-      label: 'Email',
-      value: 'bekhzod.qodirboev@gmail.com',
-      href: 'mailto:bekhzod.qodirboev@gmail.com',
+      label: 'contact.items.email',
+      value: 'begzodpublic@gmail.com',
+      href: 'mailto:begzodpublic@gmail.com',
     },
     {
-      label: 'LinkedIn',
+      label: 'contact.items.linkedin',
       value: 'linkedin.com/in/bekhzod-qodirboev',
       href: 'https://www.linkedin.com/in/bekhzod-qodirboev-a38b0a262',
     },
-    { label: 'Telegram', value: '@bekhzodq', href: 'https://t.me/bekhzodq' },
+    {
+      label: 'contact.items.github',
+      value: 'github.com/BegzodDev',
+      href: 'https://github.com/BegzodDev',
+    },
   ];
 }
