@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslocoModule } from '@jsverse/transloco';
+import { ScrollRevealDirective } from '../../../shared/directives/animations-pipe';
 
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [CommonModule, TranslocoModule],
+  imports: [CommonModule, TranslocoModule, ScrollRevealDirective],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.scss',
 })

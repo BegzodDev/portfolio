@@ -1,10 +1,21 @@
 <section id="contact">
-  <p class="section-tag">{{ "contact.tag" | transloco }}</p>
-  <h2>{{ "contact.title" | transloco }}</h2>
-  <p class="lead">{{ "contact.lead" | transloco }}</p>
+  <p class="section-tag" appScrollReveal="fade-up">
+    {{ "contact.tag" | transloco }}
+  </p>
+  <h2 appScrollReveal="fade-up" [revealDelay]="80">
+    {{ "contact.title" | transloco }}
+  </h2>
+  <p class="lead" appScrollReveal="fade-up" [revealDelay]="140">
+    {{ "contact.lead" | transloco }}
+  </p>
 
   <div class="contact-row">
-    <div class="contact-card" *ngFor="let item of items">
+    <div
+      class="contact-card"
+      *ngFor="let item of items; let i = index"
+      appScrollReveal="scale"
+      [revealDelay]="i * 100"
+    >
       <div class="label">{{ item.label | transloco }}</div>
       <div class="value">
         <a [href]="item.href" target="_blank" rel="noopener">{{

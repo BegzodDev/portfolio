@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslocoModule } from '@jsverse/transloco';
+import { ScrollRevealDirective } from '../../../shared/directives/animations-pipe';
 
 interface ContactItem {
   label: string;
@@ -11,7 +12,7 @@ interface ContactItem {
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, TranslocoModule],
+  imports: [CommonModule, TranslocoModule, ScrollRevealDirective],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })

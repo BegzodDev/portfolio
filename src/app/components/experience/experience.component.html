@@ -1,9 +1,18 @@
 <section id="contracts">
-  <p class="section-tag">{{ "experience.tag" | transloco }}</p>
-  <h2>{{ "experience.title" | transloco }}</h2>
+  <p class="section-tag" appScrollReveal="fade-up">
+    {{ "experience.tag" | transloco }}
+  </p>
+  <h2 appScrollReveal="fade-up" [revealDelay]="80">
+    {{ "experience.title" | transloco }}
+  </h2>
 
   <div class="gitlog">
-    <div class="commit" *ngFor="let c of commits">
+    <div
+      class="commit"
+      *ngFor="let c of commits; let i = index"
+      appScrollReveal="fade-left"
+      [revealDelay]="i * 150"
+    >
       <div class="commit-hash">{{ c.hash }}</div>
       <div class="commit-msg">{{ c.msg | transloco }}</div>
       <div class="commit-meta">{{ c.meta | transloco }}</div>

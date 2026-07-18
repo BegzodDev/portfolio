@@ -1,7 +1,9 @@
 <section id="about">
-  <p class="section-tag">{{ "about.tag" | transloco }}</p>
+  <p class="section-tag" [revealOnce]="true" appScrollReveal="fade-up">
+    {{ "about.tag" | transloco }}
+  </p>
 
-  <div class="hero-top">
+  <div class="hero-top" [revealOnce]="true" appScrollReveal="fade-up">
     <div class="hero-avatar">
       <img src="assets/images/avatar2.png" alt="Bekhzod Qodirboev" />
     </div>
@@ -21,14 +23,24 @@
     </div>
   </div>
 
-  <div class="hero-cta">
+  <div
+    class="hero-cta"
+    [revealOnce]="true"
+    appScrollReveal="fade-up"
+    [revealDelay]="120"
+  >
     <a class="btn btn-primary" href="#projects">{{
       "about.ctaProjects" | transloco
     }}</a>
     <a class="btn" href="#contact">{{ "about.ctaContact" | transloco }}</a>
   </div>
 
-  <div class="hero-terminal">
+  <div
+    class="hero-terminal"
+    [revealOnce]="true"
+    appScrollReveal="fade-up"
+    [revealDelay]="200"
+  >
     <div class="hero-terminal-bar"><span></span><span></span><span></span></div>
     <div class="hero-terminal-body">
       <div class="line">
@@ -46,13 +58,19 @@
   </div>
 
   <div class="about-grid" style="margin-top: 56px">
-    <div class="about-text">
+    <div class="about-text" [revealOnce]="true" appScrollReveal="fade-up">
       <h2>{{ "about.summaryTitle" | transloco }}</h2>
       <p>{{ "about.summaryP1" | transloco }}</p>
       <p>{{ "about.summaryP2" | transloco }}</p>
     </div>
-    <div class="stack-list">
-      <div class="stack-row" *ngFor="let row of stack">
+    <div class="stack-list" [revealOnce]="true" appScrollReveal="fade-right">
+      <div
+        class="stack-row"
+        *ngFor="let row of stack; let i = index"
+        [revealOnce]="true"
+        appScrollReveal="fade-up"
+        [revealDelay]="i * 90"
+      >
         <span class="key">{{ row.key | transloco }}</span>
         <span class="value">{{ row.value | transloco }}</span>
       </div>

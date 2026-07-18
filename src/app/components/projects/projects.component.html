@@ -1,18 +1,28 @@
 <section id="projects">
-  <p class="section-tag">{{ "projects.tag" | transloco }}</p>
-  <h2>{{ "projects.title" | transloco }}</h2>
+  <p class="section-tag" [revealOnce]="true" appScrollReveal="fade-up">
+    {{ "projects.tag" | transloco }}
+  </p>
+  <h2 [revealOnce]="true" appScrollReveal="fade-up" [revealDelay]="80">
+    {{ "projects.title" | transloco }}
+  </h2>
 
-  <div class="project-card" *ngFor="let p of projects">
+  <div
+    class="project-card"
+    *ngFor="let p of projects; let i = index"
+    [revealOnce]="true"
+    appScrollReveal="fade-up"
+    [revealDelay]="i * 120"
+  >
     <div class="project-head">
       <span class="project-name">{{ p.name | transloco }}</span>
-      <div class="project-links">
+      <!-- <div class="project-links">
         <a *ngIf="p.demoUrl" [href]="p.demoUrl">{{
           "projects.liveDemo" | transloco
         }}</a>
         <a *ngIf="p.sourceUrl" [href]="p.sourceUrl">{{
           "projects.source" | transloco
         }}</a>
-      </div>
+      </div> -->
     </div>
     <div class="project-body">
       <p class="project-desc">{{ p.description | transloco }}</p>

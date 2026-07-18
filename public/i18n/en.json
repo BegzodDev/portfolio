@@ -70,14 +70,29 @@
     "title": "Work experience & contracts",
     "items": {
       "commitOne": {
-        "msg": "[Contract/role title — e.g. Freelance Angular Developer]",
-        "meta": "[date range and company name]",
-        "body": "[What you did, what results you achieved — 1-2 sentences]"
+        "msg": "Angular & .NET Full-Stack Developer",
+        "meta": "2022 – 2024 | BePro DevHub | Tashkent, Uzbekistan",
+        "body": "Developed enterprise web applications using Angular and ASP.NET Core. Built REST APIs, JWT authentication, and worked with Entity Framework Core, PostgreSQL, MySQL, and Clean Architecture."
       },
       "commitTwo": {
-        "msg": "[Contract/role title]",
-        "meta": "[date range and company name]",
-        "body": "[What you did, what results you achieved — 1-2 sentences]"
+        "msg": "UDS Ambulance Management System",
+        "meta": "BePro DevHub",
+        "body": "Contributed to the development of an ambulance management platform. Implemented real-time features using Angular and .NET technologies."
+      },
+      "commitThree": {
+        "msg": "MedData Healthcare Platform",
+        "meta": "BePro DevHub",
+        "body": "Developed healthcare management modules, integrated APIs, optimized database performance, and implemented business logic."
+      },
+      "commitFour": {
+        "msg": "DMS Teeth Dental Clinic System",
+        "meta": "BePro DevHub",
+        "body": "Built modules for managing patients, appointments, doctors, and payments for a dental clinic management system."
+      },
+      "commitFive": {
+        "msg": "Mokas Restaurant Management System",
+        "meta": "Commercial Project",
+        "body": "Designed and developed a complete restaurant management system from scratch using Angular and ASP.NET Core."
       }
     }
   },

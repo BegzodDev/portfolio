@@ -73,14 +73,29 @@
     "title": "Ish tajribasi va kontraktlar",
     "items": {
       "commitOne": {
-        "msg": "[Kontrakt/lavozim nomi — masalan: Freelance Angular dasturchisi]",
-        "meta": "[sana oralig'i va kompaniya nomi]",
-        "body": "[Nima qildingiz, qanday natijaga erishdingiz — 1-2 gap]"
+        "msg": "Angular va .NET Full-Stack Dasturchisi",
+        "meta": "2022 – 2024 | BePro DevHub | Toshkent, O'zbekiston",
+        "body": "Angular va ASP.NET Core yordamida korporativ veb-ilovalarni ishlab chiqdim. REST API, JWT autentifikatsiyasi, Entity Framework Core, PostgreSQL, MySQL va Clean Architecture asosida tizimlar yaratdim."
       },
       "commitTwo": {
-        "msg": "[Kontrakt/lavozim nomi]",
-        "meta": "[sana oralig'i va kompaniya nomi]",
-        "body": "[Nima qildingiz, qanday natijaga erishdingiz — 1-2 gap]"
+        "msg": "UDS Tez Yordam Boshqaruv Tizimi",
+        "meta": "BePro DevHub",
+        "body": "Tez yordam xizmatlari uchun boshqaruv tizimini ishlab chiqishda ishtirok etdim. Angular frontend va .NET backend yordamida real vaqt rejimidagi funksiyalarni yaratdim."
+      },
+      "commitThree": {
+        "msg": "MedData Tibbiy Platformasi",
+        "meta": "BePro DevHub",
+        "body": "Tibbiy muassasalar uchun ma'lumotlarni boshqarish tizimini ishlab chiqishda qatnashdim. API integratsiyasi, ma'lumotlar bazasi optimizatsiyasi va biznes logikasini amalga oshirdim."
+      },
+      "commitFour": {
+        "msg": "DMS Teeth Stomatologiya Tizimi",
+        "meta": "BePro DevHub",
+        "body": "Stomatologiya klinikasi uchun bemorlar, qabullar, shifokorlar va to'lovlarni boshqarish modullarini ishlab chiqdim."
+      },
+      "commitFive": {
+        "msg": "Mokas Restoran Boshqaruv Tizimi",
+        "meta": "Shaxsiy / Tijorat Loyihasi",
+        "body": "Restoran uchun buyurtmalar va boshqaruv tizimini noldan ishlab chiqdim. Angular va ASP.NET Core asosida to'liq full-stack yechim yaratdim."
       }
     }
   },
