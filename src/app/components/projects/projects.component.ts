@@ -14,38 +14,52 @@ import { ScrollRevealDirective } from '../../../shared/directives/animations-pip
 export class ProjectsComponent {
   projects: Project[] = [
     {
-      name: 'projects.items.projectOne.name',
+      name: 'projects.items.uds.name',
       demoUrl: '#',
       sourceUrl: '#',
-      description: 'projects.items.projectOne.description',
+      description: 'projects.items.uds.description',
       highlights: [
-        'projects.items.projectOne.highlight1',
-        'projects.items.projectOne.highlight2',
-        'projects.items.projectOne.highlight3',
+        'projects.items.uds.highlight1',
+        'projects.items.uds.highlight2',
+        'projects.items.uds.highlight3',
       ],
-      meta: 'projects.items.projectOne.meta',
+      meta: 'projects.items.uds.meta',
     },
     {
-      name: 'projects.items.smePlatform.name',
+      name: 'projects.items.medData.name',
       demoUrl: '#',
       sourceUrl: '#',
-      description: 'projects.items.smePlatform.description',
+      description: 'projects.items.medData.description',
       highlights: [
-        'projects.items.smePlatform.highlight1',
-        'projects.items.smePlatform.highlight2',
+        'projects.items.medData.highlight1',
+        'projects.items.medData.highlight2',
+        'projects.items.medData.highlight3',
       ],
-      meta: 'projects.items.smePlatform.meta',
+      meta: 'projects.items.medData.meta',
     },
     {
-      name: 'projects.items.restaurantPos.name',
+      name: 'projects.items.dmsTeeth.name',
       demoUrl: '#',
       sourceUrl: '#',
-      description: 'projects.items.restaurantPos.description',
+      description: 'projects.items.dmsTeeth.description',
       highlights: [
-        'projects.items.restaurantPos.highlight1',
-        'projects.items.restaurantPos.highlight2',
+        'projects.items.dmsTeeth.highlight1',
+        'projects.items.dmsTeeth.highlight2',
+        'projects.items.dmsTeeth.highlight3',
       ],
-      meta: 'projects.items.restaurantPos.meta',
+      meta: 'projects.items.dmsTeeth.meta',
+    },
+    {
+      name: 'projects.items.mokas.name',
+      demoUrl: '#',
+      sourceUrl: '#',
+      description: 'projects.items.mokas.description',
+      highlights: [
+        'projects.items.mokas.highlight1',
+        'projects.items.mokas.highlight2',
+        'projects.items.mokas.highlight3',
+      ],
+      meta: 'projects.items.mokas.meta',
     },
   ];
 }

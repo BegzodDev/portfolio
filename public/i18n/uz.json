@@ -26,7 +26,7 @@
       "value": "SQL Server, PostgreSQL"
     },
     "tools": { "key": "Vositalar", "value": "Git, Docker, Azure" },
-    "languages": { "key": "Tillar", "value": "O'zbek · Rus · Yapon" },
+    "languages": { "key": "Tillar", "value": "O'zb · Rus · Eng · Jap" },
     "location": { "key": "Joylashuv", "value": "Aichi, Yaponiya 🇯🇵" }
   },
   "sidebar": {
@@ -40,31 +40,41 @@
   },
   "projects": {
     "tag": "loyihalar",
-    "title": "Tanlangan loyihalar",
+    "title": "Qatnashgan loyihalar",
     "liveDemo": "Jonli namoyish",
     "source": "Manba kodi",
     "items": {
-      "projectOne": {
-        "name": "Loyiha nomi bir",
-        "description": "[Loyiha haqida 1-2 gap: nima qiladi, qaysi muammoni hal qiladi va kim uchun yaratilgan.]",
-        "highlight1": "React + TailwindCSS frontend",
-        "highlight2": "Node.js / Express REST API",
-        "highlight3": "PostgreSQL ma'lumotlar bazasi",
-        "meta": "joylashtirildi: Vercel + Railway"
+      "uds": {
+        "name": "UDS Tez Yordam Tizimi",
+        "description": "Tez yordam mashinalari va bemorlarni boshqarish uchun mo‘ljallangan platforma.",
+        "highlight1": "Tez yordamni real vaqt rejimida kuzatish",
+        "highlight2": "Chaqiruvlar va bemorlarni boshqarish",
+        "highlight3": "Rolga asoslangan kirish va hisobotlar",
+        "meta": "Angular • .NET 8 • ASP.NET Core • PostgreSQL • SignalR"
       },
-      "smePlatform": {
-        "name": "Kichik biznes boshqaruv platformasi",
-        "description": "Kichik biznes uchun boshqaruv paneli — inventar, hisob-faktura, mijozlar yozuvlari va hisobotlar bitta interfeysda.",
-        "highlight1": "Angular + .NET 8 full-stack",
-        "highlight2": "PostgreSQL + Docker",
-        "meta": "CI/CD: GitHub Actions"
+      "medData": {
+        "name": "MedData Tibbiyot Platformasi",
+        "description": "Bemorlar, shifokorlar, qabul va tibbiy ma'lumotlarni boshqarish tizimi.",
+        "highlight1": "Elektron tibbiy kartalar",
+        "highlight2": "Qabul vaqtlarini boshqarish",
+        "highlight3": "Analitika paneli",
+        "meta": "Angular • ASP.NET Core • EF Core • PostgreSQL"
       },
-      "restaurantPos": {
-        "name": "Restoran uchun POS tizimi",
-        "description": "Yaponiya restoranlari uchun POS tizimi — buyurtmalar, stol kuzatuvi va kunlik daromad hisoboti touchscreen interfeysida.",
-        "highlight1": "Angular + SignalR real-time",
-        "highlight2": "ASP.NET Core backend",
-        "meta": "platforma: Windows Tablet"
+      "dmsTeeth": {
+        "name": "DMS Teeth",
+        "description": "Stomatologiya klinikasini boshqarish tizimi.",
+        "highlight1": "Bemor davolash tarixini yuritish",
+        "highlight2": "Qabul va to'lovlarni boshqarish",
+        "highlight3": "Administrator paneli",
+        "meta": "Angular • .NET • MySQL • JWT Authentication"
+      },
+      "mokas": {
+        "name": "Mokas Restoran POS Tizimi",
+        "description": "Restoran uchun POS, buyurtmalar, menyu va savdo hisobotlarini boshqarish tizimi.",
+        "highlight1": "POS va buyurtmalarni boshqarish",
+        "highlight2": "Menyu va ombor boshqaruvi",
+        "highlight3": "Savdo statistikasi paneli",
+        "meta": "HTML • JavaScript • bootstrap • CSS"
       }
     }
   },

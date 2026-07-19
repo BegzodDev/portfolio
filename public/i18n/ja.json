@@ -38,7 +38,7 @@
     },
     "languages": {
       "key": "対応言語",
-      "value": "ウズベク語・ロシア語・日本語"
+      "value": "ウズベク語・ロシア語・英語・日本語"
     },
     "location": {
       "key": "所在地",
@@ -58,33 +58,41 @@
 
   "projects": {
     "tag": "Projects",
-    "title": "主なプロジェクト",
+    "title": "参加したプロジェクト",
     "liveDemo": "デモを見る",
     "source": "ソースコード",
     "items": {
-      "projectOne": {
-        "name": "ポートフォリオサイト",
-        "description": "Angular を使用して開発したレスポンシブ対応のポートフォリオサイトです。多言語対応やダークモード、モダンな UI を備えています。",
-        "highlight1": "Angular + TypeScript",
-        "highlight2": "レスポンシブデザイン",
-        "highlight3": "多言語対応 (i18n)",
-        "meta": "Vercel にデプロイ"
+      "uds": {
+        "name": "UDS 救急管理システム",
+        "description": "救急車と患者をリアルタイムで管理するためのプラットフォーム。",
+        "highlight1": "救急車のリアルタイム追跡",
+        "highlight2": "出動要請と患者管理",
+        "highlight3": "ロールベースのアクセスとレポート",
+        "meta": "Angular • .NET 8 • ASP.NET Core • PostgreSQL • SignalR"
       },
-      "smePlatform": {
-        "name": "企業向け業務管理システム",
-        "description": "在庫管理、請求書管理、顧客管理、売上レポートなどを一元管理できる Web システムです。",
-        "highlight1": "Angular + .NET 8",
-        "highlight2": "PostgreSQL + Docker",
-        "highlight3": "REST API",
-        "meta": "CI/CD: GitHub Actions"
+      "medData": {
+        "name": "MedData 医療プラットフォーム",
+        "description": "患者、医師、予約、医療データを管理するシステム。",
+        "highlight1": "電子カルテ",
+        "highlight2": "予約スケジュール管理",
+        "highlight3": "分析ダッシュボード",
+        "meta": "Angular • ASP.NET Core • EF Core • PostgreSQL"
       },
-      "restaurantPos": {
-        "name": "レストラン向けPOSシステム",
-        "description": "注文管理、テーブル管理、売上分析をリアルタイムで行える POS システムを開発しました。",
-        "highlight1": "Angular + SignalR",
-        "highlight2": "ASP.NET Core",
-        "highlight3": "SQL Server",
-        "meta": "Windows タブレット対応"
+      "dmsTeeth": {
+        "name": "DMS Teeth",
+        "description": "歯科クリニック管理システム。",
+        "highlight1": "患者の治療履歴管理",
+        "highlight2": "予約と支払いの管理",
+        "highlight3": "管理者ダッシュボード",
+        "meta": "Angular • .NET • MySQL • JWT Authentication"
+      },
+      "mokas": {
+        "name": "Mokas レストラン POS システム",
+        "description": "レストランの注文、メニュー、売上レポートを管理する POS システム。",
+        "highlight1": "POSと注文管理",
+        "highlight2": "メニューと在庫管理",
+        "highlight3": "売上統計ダッシュボード",
+        "meta": "HTML • JavaScript • bootstrap • CSS"
       }
     }
   },

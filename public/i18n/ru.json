@@ -23,7 +23,10 @@
     "backend": { "key": "Backend", "value": "ASP.NET Core, C#" },
     "database": { "key": "База данных", "value": "SQL Server, PostgreSQL" },
     "tools": { "key": "Инструменты", "value": "Git, Docker, Azure" },
-    "languages": { "key": "Языки", "value": "Узбекский · Русский · Японский" },
+    "languages": {
+      "key": "Языки",
+      "value": "Узб · Рус · Анг ·  Япн"
+    },
     "location": { "key": "Местоположение", "value": "Айти, Япония 🇯🇵" }
   },
   "sidebar": {
@@ -37,31 +40,41 @@
   },
   "projects": {
     "tag": "проекты",
-    "title": "Избранные проекты",
+    "title": "Проекты, в которых я участвовал",
     "liveDemo": "Живая демонстрация",
     "source": "Исходный код",
     "items": {
-      "projectOne": {
-        "name": "Название проекта один",
-        "description": "[Краткое описание проекта в 1-2 предложениях: что он делает, какую проблему решает и для кого создан.]",
-        "highlight1": "React + TailwindCSS фронтенд",
-        "highlight2": "Node.js / Express REST API",
-        "highlight3": "База данных PostgreSQL",
-        "meta": "развёрнуто: Vercel + Railway"
+      "uds": {
+        "name": "Система управления скорой помощью UDS",
+        "description": "Платформа для управления машинами скорой помощи и пациентами в реальном времени.",
+        "highlight1": "Отслеживание скорой помощи в реальном времени",
+        "highlight2": "Управление вызовами и пациентами",
+        "highlight3": "Ролевой доступ и отчётность",
+        "meta": "Angular • .NET 8 • ASP.NET Core • PostgreSQL • SignalR"
       },
-      "smePlatform": {
-        "name": "Платформа управления для МСБ",
-        "description": "Панель управления для малого бизнеса — инвентаризация, счета-фактуры, учёт клиентов и отчёты в едином интерфейсе.",
-        "highlight1": "Angular + .NET 8 full-stack",
-        "highlight2": "PostgreSQL + Docker",
-        "meta": "CI/CD: GitHub Actions"
+      "medData": {
+        "name": "Медицинская платформа MedData",
+        "description": "Система управления пациентами, врачами, приёмами и медицинскими данными.",
+        "highlight1": "Электронные медицинские карты",
+        "highlight2": "Управление расписанием приёмов",
+        "highlight3": "Панель аналитики",
+        "meta": "Angular • ASP.NET Core • EF Core • PostgreSQL"
       },
-      "restaurantPos": {
-        "name": "POS-система для ресторана",
-        "description": "POS-система для японских ресторанов — управление заказами, отслеживание столов и отчёты о дневной выручке на сенсорном интерфейсе.",
-        "highlight1": "Angular + SignalR в реальном времени",
-        "highlight2": "Бэкенд на ASP.NET Core",
-        "meta": "платформа: Windows Tablet"
+      "dmsTeeth": {
+        "name": "DMS Teeth",
+        "description": "Система управления стоматологической клиникой.",
+        "highlight1": "Ведение истории лечения пациентов",
+        "highlight2": "Управление приёмами и платежами",
+        "highlight3": "Панель администратора",
+        "meta": "Angular • .NET • MySQL • JWT Authentication"
+      },
+      "mokas": {
+        "name": "POS-система ресторана Mokas",
+        "description": "POS-система для управления заказами, меню и отчётами о продажах ресторана.",
+        "highlight1": "Управление POS и заказами",
+        "highlight2": "Управление меню и складом",
+        "highlight3": "Панель статистики продаж",
+        "meta": "HTML • JavaScript • bootstrap • CSS"
       }
     }
   },

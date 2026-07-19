@@ -23,7 +23,10 @@
     "backend": { "key": "Backend", "value": "ASP.NET Core, C#" },
     "database": { "key": "Database", "value": "SQL Server, PostgreSQL" },
     "tools": { "key": "Tools", "value": "Git, Docker, Azure" },
-    "languages": { "key": "Languages", "value": "Uzbek · Russian · Japanese" },
+    "languages": {
+      "key": "Languages",
+      "value": "Uzb · Rus · Eng · Jap"
+    },
     "location": { "key": "Location", "value": "Aichi, Japan 🇯🇵" }
   },
   "sidebar": {
@@ -37,31 +40,41 @@
   },
   "projects": {
     "tag": "projects",
-    "title": "Selected projects",
+    "title": "Projects I Participated In",
     "liveDemo": "Live demo",
     "source": "Source",
     "items": {
-      "projectOne": {
-        "name": "Project Name One",
-        "description": "[Project overview in 1-2 sentences: what it does, what problem it solves, and who it's for.]",
-        "highlight1": "React + TailwindCSS frontend",
-        "highlight2": "Node.js / Express REST API",
-        "highlight3": "PostgreSQL database",
-        "meta": "deployed: Vercel + Railway"
+      "uds": {
+        "name": "UDS Ambulance Management System",
+        "description": "A platform for managing ambulances and patients in real time.",
+        "highlight1": "Real-time ambulance tracking",
+        "highlight2": "Call and patient management",
+        "highlight3": "Role-based access and reporting",
+        "meta": "Angular • .NET 8 • ASP.NET Core • PostgreSQL • SignalR"
       },
-      "smePlatform": {
-        "name": "SME Management Platform",
-        "description": "A management dashboard for small businesses — inventory, invoicing, customer records, and reports in one interface.",
-        "highlight1": "Angular + .NET 8 full-stack",
-        "highlight2": "PostgreSQL + Docker",
-        "meta": "CI/CD: GitHub Actions"
+      "medData": {
+        "name": "MedData Healthcare Platform",
+        "description": "A system for managing patients, doctors, appointments, and medical records.",
+        "highlight1": "Electronic health records",
+        "highlight2": "Appointment scheduling",
+        "highlight3": "Analytics dashboard",
+        "meta": "Angular • ASP.NET Core • EF Core • PostgreSQL"
       },
-      "restaurantPos": {
-        "name": "Restaurant POS System",
-        "description": "A POS system for Japanese restaurants — order management, table tracking, and daily revenue reports on a touchscreen interface.",
-        "highlight1": "Angular + SignalR real-time",
-        "highlight2": "ASP.NET Core backend",
-        "meta": "platform: Windows Tablet"
+      "dmsTeeth": {
+        "name": "DMS Teeth",
+        "description": "A dental clinic management system.",
+        "highlight1": "Patient treatment history tracking",
+        "highlight2": "Appointment and payment management",
+        "highlight3": "Admin dashboard",
+        "meta": "Angular • .NET • MySQL • JWT Authentication"
+      },
+      "mokas": {
+        "name": "Mokas Restaurant POS System",
+        "description": "A POS system for managing restaurant orders, menus, and sales reports.",
+        "highlight1": "POS and order management",
+        "highlight2": "Menu and inventory management",
+        "highlight3": "Sales statistics dashboard",
+        "meta": "HTML • JavaScript • bootstrap • CSS"
       }
     }
   },
