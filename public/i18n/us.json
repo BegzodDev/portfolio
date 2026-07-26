@@ -28,7 +28,8 @@
       "US": "Eng",
       "RU": "Rus",
       "JP": "Jap",
-      "UZ": "Uzb"
+      "UZ": "Uzb",
+      "value": "Uzb · Rus · Eng · Jap"
     },
     "location": { "key": "Location", "value": "Aichi, Japan 🇯🇵" }
   },

@@ -31,7 +31,8 @@
       "US": "Eng",
       "RU": "Rus",
       "JP": "Jap",
-      "UZ": "Uzb"
+      "UZ": "Uzb",
+      "value": "O'zb · Rus · Eng · Jap"
     },
     "location": { "key": "Joylashuv", "value": "Aichi, Yaponiya 🇯🇵" }
   },
