@@ -21,10 +21,10 @@ main {
     grid-template-columns: 1fr;
   }
   .mobile-bar {
-    display: flex;
+    display: list-item;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 24px;
+    padding: 0.5rem 1rem;
     border-bottom: 1px solid var(--line);
     background: var(--bg-panel);
     font-family: var(--font-mono);
@@ -35,12 +35,79 @@ main {
   .mobile-bar .name span {
     color: var(--accent);
   }
-  .mobile-nav {
+  .mobile-bar .top-side {
     display: flex;
-    gap: 14px;
-    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0.5rem;
   }
-  .mobile-nav a {
-    color: var(--text-dim);
+  .mobile-nav {
+    display: block;
+    width: 100%;
+    max-width: 95vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    font-size: 12px;
+    font-variant: all-small-caps;
+    font-family: var(--font-mono);
+    letter-spacing: 0.08em;
+
+    mask-image: linear-gradient(
+      90deg,
+      transparent 0%,
+      #000 8%,
+      #000 92%,
+      transparent 100%
+    );
+    -webkit-mask-image: linear-gradient(
+      90deg,
+      transparent 0%,
+      #000 8%,
+      #000 92%,
+      transparent 100%
+    );
+
+    &__track {
+      display: flex;
+      width: max-content;
+      animation: marquee 14s linear infinite;
+    }
+
+    &__group {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding-right: 14px;
+      white-space: nowrap;
+    }
+
+    a {
+      color: var(--text, #ccc);
+      text-decoration: none;
+      transition: color 0.25s ease;
+    }
+
+    .dot {
+      color: var(--accent);
+      opacity: 0.6;
+      font-size: 8px;
+    }
+
+    // faqat haqiqiy hover qo'llab-quvvatlaydigan qurilmalarda (mouse) ishlaydi
+    @media (hover: hover) and (pointer: fine) {
+      &:hover &__track {
+        animation-play-state: paused;
+      }
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
   }
 }

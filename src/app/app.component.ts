@@ -6,6 +6,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LanguageChangerComponent } from './components/language-changer/language-changer.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ import { FooterComponent } from './components/footer/footer.component';
     ExperienceComponent,
     ContactComponent,
     FooterComponent,
+    LanguageChangerComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

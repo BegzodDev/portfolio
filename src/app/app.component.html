@@ -3,12 +3,33 @@
 
   <!-- Mobile bar (visible only below 860px, sidebar hides itself) -->
   <div class="mobile-bar">
-    <div class="name">bekhzod<span>.dev</span></div>
+    <div class="top-side">
+      <div class="name">bekhzod<span>.dev</span></div>
+      <app-language-changer [isMobile]="true"></app-language-changer>
+    </div>
     <nav class="mobile-nav">
-      <a href="#about">about</a>
-      <a href="#projects">projects</a>
-      <a href="#contracts">experience</a>
-      <a href="#contact">contact</a>
+      <div class="mobile-nav__track">
+        <div class="mobile-nav__group">
+          <a href="#about">about</a>
+          <span class="dot">•</span>
+          <a href="#projects">projects</a>
+          <span class="dot">•</span>
+          <a href="#contracts">experience</a>
+          <span class="dot">•</span>
+          <a href="#contact">contact</a>
+          <span class="dot">•</span>
+        </div>
+        <div class="mobile-nav__group" aria-hidden="true">
+          <a href="#about">about</a>
+          <span class="dot">•</span>
+          <a href="#projects">projects</a>
+          <span class="dot">•</span>
+          <a href="#contracts">experience</a>
+          <span class="dot">•</span>
+          <a href="#contact">contact</a>
+          <span class="dot">•</span>
+        </div>
+      </div>
     </nav>
   </div>
 

@@ -1,16 +1,24 @@
 import { Component } from '@angular/core';
+import { LanguageChangerComponent } from '../language-changer/language-changer.component';
 
 @Component({
   selector: 'app-topbar',
   standalone: true,
   template: `
     <div class="topbar">
-      <span class="dot"></span>
-      <span
-        >build passing &middot; portfolio v1.0 &middot; last updated 2026</span
-      >
+      <div class="top-items">
+        <div style="display: flex; align-items: center; gap: 0.5rem">
+          <span class="dot"></span>
+          <span
+            >build passing &middot; portfolio v1.0 &middot; last updated
+            2026</span
+          >
+        </div>
+        <app-language-changer></app-language-changer>
+      </div>
     </div>
   `,
   styleUrl: './topbar.component.scss',
+  imports: [LanguageChangerComponent],
 })
 export class TopbarComponent {}

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { SelectModule } from 'primeng/select';
 import { FormsModule } from '@angular/forms';
 import { TranslocoModule, TranslocoService } from '@jsverse/transloco';
@@ -12,10 +12,10 @@ import { TranslocoModule, TranslocoService } from '@jsverse/transloco';
 })
 export class LanguageChangerComponent {
   constructor(private transloco: TranslocoService) {}
-
+  isMobile = input<boolean>(false);
   countries: any[] | undefined;
 
-  selectedCountry = { name: 'Rus', code: 'RU' };
+  selectedCountry = { name: 'Jap', code: 'JP' };
 
   ngOnInit() {
     this.countries = [

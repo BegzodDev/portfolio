@@ -10,11 +10,21 @@
   gap: 8px;
 }
 .topbar .dot {
-  width: 8px; height: 8px; border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
   background: var(--accent);
   display: inline-block;
 }
+.topbar .top-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
 
 @media (max-width: 860px) {
-  .topbar { padding: 10px 24px; }
+  .topbar {
+    padding: 10px 24px;
+  }
 }
