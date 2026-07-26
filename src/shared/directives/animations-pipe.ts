@@ -31,7 +31,6 @@ export class ScrollRevealDirective implements OnInit, OnDestroy {
   ngOnInit(): void {
     const element = this.el.nativeElement as HTMLElement;
 
-    // Boshlang'ich holat: yashirin
     this.renderer.addClass(element, 'reveal-init');
     this.renderer.addClass(element, `reveal-${this.animationType}`);
 

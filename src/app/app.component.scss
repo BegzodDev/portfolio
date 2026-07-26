@@ -94,7 +94,6 @@ main {
       font-size: 8px;
     }
 
-    // faqat haqiqiy hover qo'llab-quvvatlaydigan qurilmalarda (mouse) ishlaydi
     @media (hover: hover) and (pointer: fine) {
       &:hover &__track {
         animation-play-state: paused;

@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { LanguageChangerComponent } from '../language-changer/language-changer.component';
+import { LayoutService } from '../../core/services/layout.service';
 
 @Component({
   selector: 'app-topbar',
@@ -14,11 +15,16 @@ import { LanguageChangerComponent } from '../language-changer/language-changer.c
             2026</span
           >
         </div>
-        <app-language-changer></app-language-changer>
+        @if (!isMobile()) {
+          <app-language-changer></app-language-changer>
+        }
       </div>
     </div>
   `,
   styleUrl: './topbar.component.scss',
   imports: [LanguageChangerComponent],
 })
-export class TopbarComponent {}
+export class TopbarComponent {
+  private layoutState = inject(LayoutService);
+  isMobile = this.layoutState.isMobile;
+}

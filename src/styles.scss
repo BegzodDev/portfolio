@@ -148,7 +148,6 @@ a:focus-visible,
   border-color: var(--accent);
 }
 
-// === Scroll Reveal Animatsiyalari ===
 .reveal-init {
   opacity: 0;
   transition:
@@ -182,7 +181,6 @@ a:focus-visible,
   transform: translate(0, 0) scale(1) !important;
 }
 
-// Foydalanuvchi "reduce motion" tanlagan bo'lsa, animatsiyani o'chirib qo'yamiz
 @media (prefers-reduced-motion: reduce) {
   .reveal-init {
     opacity: 1;

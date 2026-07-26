@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { TopbarComponent } from './components/topbar/topbar.component';
 import { HeroComponent } from './components/hero/hero.component';
@@ -7,6 +7,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LanguageChangerComponent } from './components/language-changer/language-changer.component';
+import { LayoutService } from './core/services/layout.service';
 
 @Component({
   selector: 'app-root',
@@ -26,4 +27,7 @@ import { LanguageChangerComponent } from './components/language-changer/language
 })
 export class AppComponent {
   title = 'bekhzod-portfolio';
+
+  private layoutState = inject(LayoutService);
+  isMobile = this.layoutState.isMobile;
 }

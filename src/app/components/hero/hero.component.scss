@@ -165,7 +165,6 @@
   word-break: break-word;
 }
 
-// Kichik ekranlarda key va value ustma-ust chiqadi
 @media (max-width: 480px) {
   .stack-row {
     flex-direction: column;

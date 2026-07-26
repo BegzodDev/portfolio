@@ -4,10 +4,10 @@ import { TranslocoModule } from '@jsverse/transloco';
 import { ScrollRevealDirective } from '../../../shared/directives/animations-pipe';
 
 interface Commit {
-  hash: string; // date range, shown like a commit hash
-  msg: string; // role/title
-  meta: string; // company
-  body: string; // description
+  hash: string;
+  msg: string;
+  meta: string;
+  body: string;
 }
 
 @Component({

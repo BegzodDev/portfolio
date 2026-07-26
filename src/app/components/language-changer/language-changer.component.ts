@@ -1,7 +1,8 @@
-import { Component, input } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { SelectModule } from 'primeng/select';
 import { FormsModule } from '@angular/forms';
 import { TranslocoModule, TranslocoService } from '@jsverse/transloco';
+import { LayoutService } from '../../core/services/layout.service';
 
 @Component({
   selector: 'app-language-changer',
@@ -12,10 +13,10 @@ import { TranslocoModule, TranslocoService } from '@jsverse/transloco';
 })
 export class LanguageChangerComponent {
   constructor(private transloco: TranslocoService) {}
-  isMobile = input<boolean>(false);
   countries: any[] | undefined;
-
   selectedCountry = { name: 'Jap', code: 'JP' };
+  private layoutState = inject(LayoutService);
+  isMobile = this.layoutState.isMobile;
 
   ngOnInit() {
     this.countries = [
