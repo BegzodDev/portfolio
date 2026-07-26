@@ -13,15 +13,15 @@ export const appConfig: ApplicationConfig = {
       theme: {
         preset: Aura,
         options: {
-          darkModeSelector: false || 'none',
+          darkModeSelector: '.dark',
         },
       },
     }),
     provideHttpClient(),
     provideTransloco({
       config: {
-        availableLangs: ['en', 'ja', 'ru', 'uz'],
-        defaultLang: 'en',
+        availableLangs: ['us', 'jp', 'ru', 'uz'],
+        defaultLang: 'ru',
         reRenderOnLangChange: true,
         prodMode: !isDevMode(),
       },

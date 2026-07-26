@@ -26,7 +26,13 @@
       "value": "SQL Server, PostgreSQL"
     },
     "tools": { "key": "Vositalar", "value": "Git, Docker, Azure" },
-    "languages": { "key": "Tillar", "value": "O'zb · Rus · Eng · Jap" },
+    "languages": {
+      "key": "Tillar",
+      "US": "Eng",
+      "RU": "Rus",
+      "JP": "Jap",
+      "UZ": "Uzb"
+    },
     "location": { "key": "Joylashuv", "value": "Aichi, Yaponiya 🇯🇵" }
   },
   "sidebar": {

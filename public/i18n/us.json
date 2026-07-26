@@ -25,7 +25,10 @@
     "tools": { "key": "Tools", "value": "Git, Docker, Azure" },
     "languages": {
       "key": "Languages",
-      "value": "Uzb · Rus · Eng · Jap"
+      "US": "Eng",
+      "RU": "Rus",
+      "JP": "Jap",
+      "UZ": "Uzb"
     },
     "location": { "key": "Location", "value": "Aichi, Japan 🇯🇵" }
   },

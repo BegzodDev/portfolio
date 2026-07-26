@@ -1,17 +1,16 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslocoModule, TranslocoService } from '@jsverse/transloco';
+import { LanguageChangerComponent } from '../language-changer/language-changer.component';
 
 @Component({
   selector: 'app-sidebar',
   standalone: true,
-  imports: [CommonModule, TranslocoModule],
+  imports: [CommonModule, TranslocoModule, LanguageChangerComponent],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.scss',
 })
 export class SidebarComponent {
-  constructor(private transloco: TranslocoService) {}
-
   navItems: NavItem[] = [
     {
       label: 'sidebar.nav.about',
@@ -38,9 +37,6 @@ export class SidebarComponent {
       active: false,
     },
   ];
-  changeLang(lang: string) {
-    this.transloco.setActiveLang(lang);
-  }
 }
 
 interface NavItem {
